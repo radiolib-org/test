@@ -1,0 +1,12 @@
+version: "0.0.1"
+description: "Test library, please ignore"
+tags:
+  - radio
+url: "https://github.com/radiolib-org/test"
+repository: "https://github.com/radiolib-org/test.git"
+license: "MIT"
+dependencies:
+  # Required IDF version
+  idf: ">=4.1"
+maintainers:
+  - Jan Gromeš <gromes.jan@gmail.com>

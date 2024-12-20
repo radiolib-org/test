@@ -1,0 +1,26 @@
+{
+    "name": "Test Library",
+    "version": "0.0.1",
+    "description": "Test library, please ignore",
+    "keywords": "radio",
+    "homepage": "https://github.com/radiolib-org/test",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/radiolib-org/test.git"
+    },
+    "authors":
+    {
+        "name": "Jan Gromeš",
+        "email": "gromes.jan@gmail.com",
+        "maintainer": true
+    },
+    "license": "MIT",
+    "frameworks": "*",
+    "platforms": "*",
+    "headers": "Test.h",
+    "build":
+    {
+        "libLDFMode": "chain+"
+    }
+}
