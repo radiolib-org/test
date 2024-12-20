@@ -20,9 +20,9 @@ jobs:
           python-version: '3.9'
       
       - name: Install PlatformIO and ESP-IDF
-        run: 
-          - pip install --upgrade platformio
-          - pip install --upgrade idf-component-manager
+        run: | 
+          pip install --upgrade platformio
+          pip install --upgrade idf-component-manager
       
       - name: PlatformIO publish
         env:
